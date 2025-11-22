@@ -1,0 +1,144 @@
+*{
+    margin: 10px;
+}
+body{
+    background-image: url(OIP.webp);
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+p{font-size: 20px;
+text-align: center;
+border-radius: 20px;
+border-color: chocolate;
+border-style:dashed;
+border-width: 3px 4px;
+margin-top: 100px;
+margin-bottom: 100px;
+margin-right: 150px;
+margin-left: 80px;}
+#heading1{
+    color:darkcyan;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.one{
+    background-color: plum;
+    color: green;
+}
+.two{
+   border: 2px solid green;
+   outline-style: solid; 
+   text-align: center;
+}
+.three{
+    text-shadow: 2px 2px 5px red;
+}
+h2,h3,h6{
+    color: darkblue;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+h4{
+    color:navy;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color:coral;
+} 
+.link{
+    color:darkslateblue;
+    text-decoration: none;
+}
+.link:visited{
+    color:purple;
+    text-decoration: line-through;
+}
+.link :hover{
+    color: #ff0000;
+    text-shadow: 2px 2px 5px green;
+}
+.link :active{
+    color: greenyellow;
+    font-size: 25px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+ul li{
+    display: inline;
+    margin-right: 20px;
+}
+.card{
+    color:crimson;
+    background-color: darkkhaki;
+    width:100%;
+    max-width: 300px;
+    max-height: 200px;
+    overflow: auto;
+}
+.container{
+    display: flex;
+    background-color:rgb(142, 142, 225);
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.container div{
+    background-color: rgb(225, 109, 109);
+    margin: 10px;
+    padding: 20px;
+}
+.container1{
+    display: flex;
+    background-color:rgb(142, 225, 170);
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.container1 span{
+    background-color: rgb(150, 145, 200);
+    border: 2px solid black;
+}
+.box{
+    position: relative;
+    width:100px;
+    height:100px;
+    background: bisque;
+}
+.box1{
+    position: relative;
+    width:100px;
+    height:100px;
+    background: bisque;
+}
+@keyframes bounce {
+    0% {top:0;}
+    100%{top:0;}
+}
+.ball{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: plum;
+    border-radius: 50%;
+    animation: bounce 2s infinite ease-in-out;
+}
+@keyframes move{
+    from{left:0;}
+    to{left: 200px;}
+}
+.box3{
+    position: relative;
+    width:100px;
+    height:100px;
+    background: bisque;
+    animation: move 3s infinite alternate;
+}
